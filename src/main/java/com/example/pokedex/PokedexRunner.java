@@ -8,6 +8,11 @@ import com.example.pokedex.utilities.AbstractPokedexRunner;
 import com.example.pokedex.utilities.OutputFormat;
 import com.example.pokedex.views.PokemonView;
 
+/**
+ * Main class for running the Pokedex application.
+ * Handles user options and fetches Pokémon data from the selected data source.
+ */
+
 public class PokedexRunner extends AbstractPokedexRunner {
 
     private PokemonHttpProvider myPokemonService = new PokemonHttpProvider();
